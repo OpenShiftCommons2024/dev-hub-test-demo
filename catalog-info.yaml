@@ -21,7 +21,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: "group:default/maarten-vandeperre-org"     # set value defined in the (scaffolding/golden path) template
+  owner: "group:default/platform_engineers"     # set value defined in the (scaffolding/golden path) template
                                       # dump is a filter:
                                       # https://backstage.io/docs/features/software-templates/builtin-actions/
                                       # https://backstage.io/docs/features/software-templates/writing-templates/#built-in-filters
