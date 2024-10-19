@@ -17,6 +17,7 @@ metadata:
     # https://www.npmjs.com/package/@janus-idp/backstage-plugin-topology 
     backstage.io/kubernetes-namespace: demo-project 
     backstage.io/kubernetes-id: dev-hub-test-demo
+    argocd/app-selector: dev-hub-test-demo
 
 spec:
   type: service
