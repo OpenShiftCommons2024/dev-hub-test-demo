@@ -6,8 +6,8 @@ metadata:
                                     # https://backstage.io/docs/features/software-templates/builtin-actions/
                                     # https://backstage.io/docs/features/software-templates/writing-templates/#built-in-filters
   annotations:
-    #argocd/app-selector: rht-gitops.com/demo-project=simple-hello-world-service-a
-    #argocd/instance-name: argoInstance1 # as defined in app-config-rhdh.yaml
+    argocd/app-selector: rht-gitops.com/demo-project=simple-hello-world-service-a
+    argocd/instance-name: argoInstance1 # as defined in app-config-rhdh.yaml
     # https://docs.redhat.com/en/documentation/red_hat_developer_hub/1.2/html/configuring_plugins_in_red_hat_developer_hub/rhdh-installing-dynamic-plugins#installing-tekton-plugin
     #janus-idp.io/tekton: dev-hub-test-demo
 #    jenkins.io/job-full-name: <jenkins-instance-name-from-rhdh-config>:<team>/artistLookup-build<job-name>
@@ -17,8 +17,7 @@ metadata:
     # https://www.npmjs.com/package/@janus-idp/backstage-plugin-topology 
     backstage.io/kubernetes-namespace: demo-project 
     backstage.io/kubernetes-id: dev-hub-test-demo
-    argocd/app-selector: dev-hub-test-demo
-
+    
 spec:
   type: service
   lifecycle: experimental
