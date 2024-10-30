@@ -5,6 +5,7 @@ metadata:
                                     # dump is a filter:
                                     # https://backstage.io/docs/features/software-templates/builtin-actions/
                                     # https://backstage.io/docs/features/software-templates/writing-templates/#built-in-filters
+  title: "Parasol AI and VM app"
   annotations:
     argocd/app-selector: rht-gitops.com/demo-project=simple-hello-world-service-a
     argocd/instance-name: argoInstance1 # as defined in app-config-rhdh.yaml
