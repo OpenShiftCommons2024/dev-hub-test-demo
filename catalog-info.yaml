@@ -7,6 +7,9 @@ metadata:
                                     # https://backstage.io/docs/features/software-templates/writing-templates/#built-in-filters
   title: "Parasol AI and VM app"
   description: "A cool AI & VMs on OCP Application"
+  tags:
+    - AI
+    - VM
   annotations:
     argocd/app-selector: rht-gitops.com/demo-project=simple-hello-world-service-a
     argocd/instance-name: argoInstance1 # as defined in app-config-rhdh.yaml
